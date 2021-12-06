@@ -1,0 +1,132 @@
+body{
+    text-align: center;
+    background-color: #840032;
+    width: 100vw;
+    margin: 0px;
+}
+
+textarea{
+    width: 80vw;
+    background-color: #e5dada;
+    color: black;
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 10px;
+    background-color: #e5dada;
+    color: #02040f;
+    border: 2px solid #02040f;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    color: #e5dada;
+}
+
+h3{
+    color: #e5dada;
+}
+
+span{
+    color: #e5dada;
+}
+
+.caixa-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lettersDiv{
+    margin-bottom: 15px;
+    width: 98vw
+}
+#lettersDivAlfa{
+    margin-bottom: 15px;
+    width: 98vw
+}
+#lettersDivFreq{
+    margin-bottom: 15px;
+    width: 98vw
+}
+
+#wordsDiv{
+    width: 98vw
+}
+#wordsDivAlfa{
+    width: 98vw
+}
+#wordsDivFreq{
+    width: 98vw;
+}
+
+.bloco-histograma-letra{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 99vw;
+}
+
+.bloco-histograma-letra h3{
+    width: 100%;
+}
+
+.bloco-histograma-letra div div{
+    width: 20px;
+    background-color: #e59500;
+    border: 1px solid black;
+}
+
+.bloco-histograma-letra span{
+    font-size: 14px;
+}
+
+.bloco-histograma-palavra{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.bloco-histograma-palavra h3{
+    width: 100%;
+}
+
+.bloco-histograma-palavra div div div{
+
+    background-color: #e59500;
+    border: 1px solid black;
+
+}
+
+.div-palavras{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 5px;
+}
+
+.div-palavras div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.gira-palavras{
+    width: 82px;
+    word-wrap: break-word;
+}
+
+@media (min-width: 600px) {
+    .gira-palavras{
+        width: 110px;
+    }
+
+    .div-palavras div span{
+        margin-left: 5px;
+    }
+}
